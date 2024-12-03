@@ -1,22 +1,25 @@
+'use client';
 import Image from "next/image";
 import Link from "next/link";
-import logo from "../../../images/logo.png";
-import instagram from "../../../images/instagram.svg";
-import facebook from "../../../images/facebook.svg";
-import youtube from "../../../images/youtube.svg";
-import pinterest from "../../../images/pinterest.svg";
+import logo from "../../../images/header/logo.png";
+import instagram from "../../../images/header/youtube.svg";
+import facebook from "../../../images/header/facebook.svg";
+import youtube from "../../../images/header/youtube.svg";
+import pinterest from "../../../images/header/pinterest.svg";
 import "./global.css";
 
 export default function Header() {
     return (
       <header className="">
-        <nav className=" flex items-center justify-between p-6 lg:p-8" aria-label="Global">
+        <div className="">
+        <nav className="flex items-center justify-between p-6 lg:p-8" aria-label="Global">
           <div className=" ">
             <Link href="/">
               <Image  className="logo" width={800} height={800} src={logo} alt="logo" />
             </Link>
           </div>
-          <div>
+
+          <div className="">
             <ul className="">
               <li className="">
                 <Link href="/about">Hakkımızda</Link>
@@ -53,6 +56,7 @@ export default function Header() {
             </ul>
           </div>
         </nav>
+        </div>
       </header>
     );
 }
