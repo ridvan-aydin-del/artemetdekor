@@ -1,0 +1,33 @@
+.footer-clean{
+    padding: 50px 0;
+    background-color: #fff;
+    color: #4b4c4d;
+}
+
+.footer-div{
+    display: flex;
+    justify-content: center;
+    padding: 0 10%;
+    flex: content;
+    gap: 20%;
+}
+.footer-div ul{
+    position: relative;
+    gap: 10rem;
+    justify-content: start;
+    
+}
+
+.footer-div ul li{
+    display: block;
+    list-style-type: none;
+    color: #4b4c4d;
+}
+
+.footer-div ul h1{
+    color: #4b4c4d;
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
