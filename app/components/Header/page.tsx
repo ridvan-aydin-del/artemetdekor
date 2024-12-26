@@ -8,6 +8,7 @@ import youtube from "../../../images/header/youtube.svg";
 import pinterest from "../../../images/header/pinterest.svg";
 import "./global.css";
 
+
 export default function Header() {
     return (
       <header className="">
@@ -33,22 +34,22 @@ export default function Header() {
               <li>
                 <Link href="/contact">İletişim</Link>
               </li>
-              <li>
+              <li className="social-li">
                 <Link href="https://www.instagram.com">
                   <Image width={24} height={24} src={instagram} alt="logo" />
                 </Link>
               </li>
-              <li>
+              <li className="social-li">
                 <Link href="https://www.facebook.com">
                   <Image width={24} height={24} src={facebook} alt="logo" />
                 </Link>
               </li>
-              <li>
+              <li className="social-li">
                 <Link href="https://www.youtube.com">
                   <Image width={24} height={24} src={youtube} alt="logo" />
                 </Link>
               </li>
-              <li>
+              <li className="social-li">
                 <Link href="https://www.pinterest.com">
                   <Image width={24} height={24} src={pinterest} alt="logo" />
                 </Link>
