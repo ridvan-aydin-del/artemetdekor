@@ -2,4 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Tüm scrollbarları gizle */
+* {
+  -ms-overflow-style: none;  /* IE ve Edge için */
+  scrollbar-width: none;  /* Firefox için */
+}
+
+/* Webkit tarayıcılar (Chrome, Safari) için scrollbarı gizle */
+*::-webkit-scrollbar {
+  display: none;
+}
+
+
 

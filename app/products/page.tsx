@@ -2,19 +2,19 @@ import Image from "next/image";
 import Link from "next/link";
 
 const products = [
-    { id: 1, name: "Masa", slug: "table", imageUrl: "/images/products/table.jpg" },
-    { id: 2, name: "Sandalye", slug: "chair", imageUrl: "/images/products/chair.jpg" },
-    { id: 3, name: "Sehpa", slug: "coffee-table", imageUrl: "/images/products/coffee-table.jpg" },
-    { id: 4, name: "Dresuar", slug: "console", imageUrl: "/images/products/console.jpg" },
-    { id: 5, name: "Ayna", slug: "mirror", imageUrl: "/images/products/mirror.jpg" },
-    { id: 6, name: "Konsol-Tv Ünitesi", slug: "tv-unit", imageUrl: "/images/products/tv-unit.jpg" },
-    { id: 7, name: "Berjer", slug: "armchair", imageUrl: "/images/products/armchair.jpg" },
-    { id: 8, name: "Bench-Puf", slug: "bench", imageUrl: "/images/products/bench.jpg" },
-    { id: 9, name: "Separatör", slug: "partition", imageUrl: "/images/products/partition.jpg" },
-    { id: 10, name: "Aydınlatma", slug: "lighting", imageUrl: "/images/products/lighting.jpg" },
-    { id: 11, name: "Kitaplık", slug: "bookshelf", imageUrl: "/images/products/bookshelf.jpg" },
-    { id: 12, name: "Aksesuar", slug: "accessory", imageUrl: "/images/products/accessory.jpg" },
-    { id: 13, name: "Koltuk Takımı", slug: "sofa-set", imageUrl: "/images/products/sofa-set.jpg" },
+    { id: 1, name: "Masa", slug: "masa", imageUrl: "/images/products/table.jpg" },
+    { id: 2, name: "Sandalye", slug: "sandalye", imageUrl: "/images/products/chair.jpg" },
+    { id: 3, name: "Sehpa", slug: "sehpa", imageUrl: "/images/products/coffee-table.jpg" },
+    { id: 4, name: "Dresuar", slug: "dresuar", imageUrl: "/images/products/console.jpg" },
+    { id: 5, name: "Ayna", slug: "ayna", imageUrl: "/images/products/mirror.jpg" },
+    { id: 6, name: "Konsol-Tv Ünitesi", slug: "konsol-tv-unitesi", imageUrl: "/images/products/tv-unit.jpg" },
+    { id: 7, name: "Berjer", slug: "berjer", imageUrl: "/images/products/armchair.jpg" },
+    { id: 8, name: "Bench-Puf", slug: "bench-puf", imageUrl: "/images/products/bench.jpg" },
+    { id: 9, name: "Separatör", slug: "separator", imageUrl: "/images/products/partition.jpg" },
+    { id: 10, name: "Aydınlatma", slug: "aydinlatma", imageUrl: "/images/products/lighting.jpg" },
+    { id: 11, name: "Kitaplık", slug: "kitaplık", imageUrl: "/images/products/bookshelf.jpg" },
+    { id: 12, name: "Aksesuar", slug: "aksesuar", imageUrl: "/images/products/accessory.jpg" },
+    { id: 13, name: "Koltuk Takımı", slug: "koltuk-takimi", imageUrl: "/images/products/sofa-set.jpg" },
 ];
 
 export default function Products() {

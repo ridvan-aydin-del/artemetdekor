@@ -27,43 +27,43 @@ export default function Footer() {
               <h1 className="text-lg font-bold mb-4">Ürün Gruplarımız</h1>
               <ul className="grid grid-cols-2 gap-2">
                 <li className="hover:text-gray-300 cursor-pointer">
-                  <Link href="/products/table">Masa</Link>
+                  <Link href="/products/masa">Masa</Link>
                 </li>
                 <li className="hover:text-gray-300 cursor-pointer">
-                  <Link href="/products/chair">Sandalye</Link>
+                  <Link href="/products/sandalye">Sandalye</Link>
                 </li>
                 <li className="hover:text-gray-300 cursor-pointer">
-                  <Link href="/products/coffee-table">Sehpa</Link>
+                  <Link href="/products/sehpa">Sehpa</Link>
                 </li>
                 <li className="hover:text-gray-300 cursor-pointer">
-                  <Link href="/products/console">Dresuar</Link>
+                  <Link href="/products/dresuar">Dresuar</Link>
                 </li>
                 <li className="hover:text-gray-300 cursor-pointer">
-                  <Link href="/products/mirror">Ayna</Link>
+                  <Link href="/products/ayna">Ayna</Link>
                 </li>
                 <li className="hover:text-gray-300 cursor-pointer">
-                  <Link href="/products/tv-unit">Konsol-Tv Ünitesi</Link>
+                  <Link href="/products/konsol-tv-unitesi">Konsol-Tv Ünitesi</Link>
                 </li>
                 <li className="hover:text-gray-300 cursor-pointer">
-                  <Link href="/products/armchair">Berjer</Link>
+                  <Link href="/products/berjer">Berjer</Link>
                 </li>
                 <li className="hover:text-gray-300 cursor-pointer">
-                  <Link href="/products/bench">Bench-Puf</Link>
+                  <Link href="/products/bench-puf">Bench-Puf</Link>
                 </li>
                 <li className="hover:text-gray-300 cursor-pointer">
-                  <Link href="/products/partition">Separatör</Link>
+                  <Link href="/products/separator">Separatör</Link>
                 </li>
                 <li className="hover:text-gray-300 cursor-pointer">
-                  <Link href="/products/lighting">Aydınlatma</Link>
+                  <Link href="/products/aydinlatma">Aydınlatma</Link>
                 </li>
                 <li className="hover:text-gray-300 cursor-pointer">
-                  <Link href="/products/bookshelf">Kitaplık</Link>
+                  <Link href="/products/kitaplık">Kitaplık</Link>
                 </li>
                 <li className="hover:text-gray-300 cursor-pointer">
-                  <Link href="/products/accessory">Aksesuar</Link>
+                  <Link href="/products/aksesuar">Aksesuar</Link>
                 </li>
                 <li className="hover:text-gray-300 cursor-pointer">
-                  <Link href="/products/sofa-set">Koltuk Takımı</Link>
+                  <Link href="/products/koltuk-takimi">Koltuk Takımı</Link>
                 </li>
               </ul>
             </div>

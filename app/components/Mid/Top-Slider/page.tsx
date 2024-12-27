@@ -1,5 +1,5 @@
 'use client';
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -21,6 +21,20 @@ import 'swiper/css/pagination';
 import Image from "next/image";
 
 const TopSlider = () => {
+  const [isClient, setIsClient] = useState(false)
+
+  useEffect(() => {
+    setIsClient(true)
+  }, [])
+
+  if (!isClient) {
+    return (
+      <div className="relative w-full h-[400px] bg-gray-200 animate-pulse">
+        {/* Loading state */}
+      </div>
+    )
+  }
+
   return (
     <div className="relative w-full">
       <Swiper
