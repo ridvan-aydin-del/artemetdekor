@@ -1,31 +1,46 @@
 /* global.css */
 
-
+/* Ürün grid düzeni */
 .product-list {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
+    padding: 20px;
+}
+
+/* Ürün kutusu */
+.product-image {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px 0;
+    aspect-ratio: 1 / 1;
+    /* Kare görünüm için */
 }
 
-.product-item {
-    background-color: #ffffff;
-    border: 1px solid #e0e0e0;
-    border-radius: 8px;
-    padding: 20px;
-    width: calc(20% - 200px);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+.product-image:hover {
+    transform: translateY(-5px);
 }
 
-.product-image {
-    max-width: 100%;
-    border-radius: 8px;
+/* Resim ayarları */
+.product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    /* Görselleri tamamen göster kutuya sığdır */
+    background-color: #f9f9f9;
+    /* Boş alanları renklendir */
 }
 
-.product-item-div{
-    font-size: 1.5rem;
-    margin: 10px 0;
+/* Ürün adı */
+.product-item-div {
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 600;
 }
-
