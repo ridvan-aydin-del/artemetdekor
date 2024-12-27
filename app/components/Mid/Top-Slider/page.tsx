@@ -1,7 +1,6 @@
 'use client';
 import React from 'react'
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
-
+import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 //CSS
@@ -19,41 +18,83 @@ import slidephoto6 from "../../../../images/main-slider/slider-6.jpg"
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
 import Image from "next/image";
 
 const TopSlider = () => {
   return (
-    <Swiper
+    <div className="relative w-full">
+      <Swiper
         slidesPerView={1}
-        spaceBetween={30}
+        spaceBetween={0}
         loop={true}
+        autoplay={{
+          delay: 2000,
+          disableOnInteraction: false,
+        }}
         pagination={{
           clickable: true,
         }}
         navigation={true}
-        modules={[Pagination, Navigation]}
+        modules={[Pagination, Navigation, Autoplay]}
         className="mySwiper"
       >
         <SwiperSlide>
-            <Image className="slide"  src={slidephoto1} alt="slide1"/>
+          <div className="relative w-full">
+            <Image 
+              className="slide" 
+              src={slidephoto1} 
+              alt="slide1"
+              priority // İlk resmin hızlı yüklenmesi için
+            />
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-            <Image className="slide"  src={slidephoto2} alt="slide2"/>
+          <div className="relative w-full">
+            <Image 
+              className="slide" 
+              src={slidephoto2} 
+              alt="slide2"
+            />
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-            <Image className="slide"  src={slidephoto3} alt="slide3"/>
+          <div className="relative w-full">
+            <Image 
+              className="slide" 
+              src={slidephoto3} 
+              alt="slide3"
+            />
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-            <Image className="slide"  src={slidephoto4} alt="slide4"/>
+          <div className="relative w-full">
+            <Image 
+              className="slide" 
+              src={slidephoto4} 
+              alt="slide4"
+            />
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-            <Image className="slide"  src={slidephoto5} alt="slide5"/>
+          <div className="relative w-full">
+            <Image 
+              className="slide" 
+              src={slidephoto5} 
+              alt="slide5"
+            />
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-            <Image className="slide"  src={slidephoto6} alt="slide6"/>
+          <div className="relative w-full">
+            <Image 
+              className="slide" 
+              src={slidephoto6} 
+              alt="slide6"
+            />
+          </div>
         </SwiperSlide>
       </Swiper>
+    </div>
   )
 }
 

@@ -1,92 +1,58 @@
-import React from "react";
-import Header from "../components/Header/page";
-import Footer from "../components/Footer/page";
-import "./global.css";
+import Image from "next/image";
 import Link from "next/link";
 
-const Products = () => {
-  return (
-    <>
-      <h1 className="baslik">Ürünlerimiz</h1>
-      <ul className="ul-products">
-        <li>
-          <Link href="/products/masa" className="link-baslik">
-            Masa
-          </Link>
-        </li>
-        <li>
-          <Link href="/sandalye" className="link-baslik">
-            Sandalye
-          </Link>
-        </li>
-        <li>
-          <Link href="/sehpa" className="link-baslik">
-            Sehpa
-          </Link>
-        </li>
-        <li>
-          <Link href="/dresuar" className="link-baslik">
-            Dresuar
-          </Link>
-        </li>
-        <li>
-          <Link href="/ayna" className="link-baslik">
-            Ayna
-          </Link>
-        </li>
-        <li>
-          <Link href="/konsol-tv-unitesi" className="link-baslik">
-            Konsol-Tv Ünitesi
-          </Link>
-        </li>
-        <li>
-          <Link href="/berjer" className="link-baslik">
-            Berjer
-          </Link>
-        </li>
-        <li>
-          <Link href="/bench-puf" className="link-baslik">
-            Bench-Puf
-          </Link>
-        </li>
-        <li>
-          <Link href="/seperatoer" className="link-baslik">
-            Seperatör
-          </Link>
-        </li>
-        <li>
-          <Link href="/aydinlatma" className="link-baslik">
-            Aydınlatma
-          </Link>
-        </li>
-        <li>
-          <Link href="/kitaplik" className="link-baslik">
-            Kitaplık
-          </Link>
-        </li>
-        <li>
-          <Link href="/aksesuar" className="link-baslik">
-            Aksesuar
-          </Link>
-        </li>
-        <li>
-          <Link href="/koltuk-takimi" className="link-baslik">
-            Koltuk Takımı
-          </Link>
-        </li>
-        <li>
-          <Link href="/yemek-odasi" className="link-baslik">
-            Yemek Odası
-          </Link>
-        </li>
-        <li>
-          <Link href="/yatak-odasi" className="link-baslik">
-            Yatak Odası
-          </Link>
-        </li>
-      </ul>
-    </>
-  );
-};
+const products = [
+    { id: 1, name: "Masa", slug: "table", imageUrl: "/images/products/table.jpg" },
+    { id: 2, name: "Sandalye", slug: "chair", imageUrl: "/images/products/chair.jpg" },
+    { id: 3, name: "Sehpa", slug: "coffee-table", imageUrl: "/images/products/coffee-table.jpg" },
+    { id: 4, name: "Dresuar", slug: "console", imageUrl: "/images/products/console.jpg" },
+    { id: 5, name: "Ayna", slug: "mirror", imageUrl: "/images/products/mirror.jpg" },
+    { id: 6, name: "Konsol-Tv Ünitesi", slug: "tv-unit", imageUrl: "/images/products/tv-unit.jpg" },
+    { id: 7, name: "Berjer", slug: "armchair", imageUrl: "/images/products/armchair.jpg" },
+    { id: 8, name: "Bench-Puf", slug: "bench", imageUrl: "/images/products/bench.jpg" },
+    { id: 9, name: "Separatör", slug: "partition", imageUrl: "/images/products/partition.jpg" },
+    { id: 10, name: "Aydınlatma", slug: "lighting", imageUrl: "/images/products/lighting.jpg" },
+    { id: 11, name: "Kitaplık", slug: "bookshelf", imageUrl: "/images/products/bookshelf.jpg" },
+    { id: 12, name: "Aksesuar", slug: "accessory", imageUrl: "/images/products/accessory.jpg" },
+    { id: 13, name: "Koltuk Takımı", slug: "sofa-set", imageUrl: "/images/products/sofa-set.jpg" },
+];
 
-export default Products;
+export default function Products() {
+    return (
+        <div className="min-h-screen bg-gray-50">
+
+
+            {/* Products Grid */}
+            <div className="container mt-16 mx-auto px-4 pb-16">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                    {products.map((product) => (
+                        <Link 
+                            href={`/products/${product.slug}`} 
+                            key={product.id}
+                            className="group"
+                        >
+                            <div className="bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:-translate-y-1">
+                                <div className="relative h-64 overflow-hidden">
+                                    <div className="absolute inset-0 bg-gray-200 animate-pulse" />
+                                    {/* Görsel yüklenene kadar gri arka plan gösterilir */}
+                                    <Image
+                                        src={product.imageUrl}
+                                        alt={product.name}
+                                        fill
+                                        className="object-cover group-hover:scale-105 transition-transform duration-300"
+                                    />
+                                </div>
+                                <div className="p-4">
+                                    <h3 className="text-lg text-center font-semibold text-gray-800 group-hover:text-black">
+                                        {product.name}
+                                    </h3>
+
+                                </div>
+                            </div>
+                        </Link>
+                    ))}
+                </div>
+            </div>
+        </div>
+    );
+} 
