@@ -27,7 +27,7 @@ const MasaDetail = () => {
           <h2>Masa {masaId}</h2>
         </div>
       ) : (
-        <p>Bu masa bulunamadı.</p>
+        <p>Bu masa bulunamadı</p>
       )}
     </div>
   );
