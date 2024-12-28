@@ -1,12 +1,17 @@
+"use client";
+
 import React from "react";
 import "./global.css";
-import Link from "next/link";
 import Image from "next/image";
 import { masaImages } from "@/images/images";
+import { useParams, useRouter } from "next/navigation";
 
-const MasaDetail = ({ params }: { params: { id: string } }) => {
-  const masaId = parseInt(params.id); // ID'yi sayıya çevirme
+const MasaDetail = () => {
+  const { id } = useParams();
+
+  const masaId = typeof id === "string" ? parseInt(id) : NaN;
   const selectedImage = masaImages[masaId - 1];
+
   return (
     <div className="product-detail-page">
       {selectedImage ? (
