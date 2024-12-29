@@ -162,4 +162,4 @@ export const sandalyeImages = [
   Sandalye9,
   Sandalye10,
   Sandalye11,
-];
+]; 
