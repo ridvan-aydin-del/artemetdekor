@@ -8,77 +8,77 @@ import "./styles.css";
 
 export default function Footer() {
     return (
-      <div className="footer-clean bg-gray-900 text-white">
-        <footer className="container mx-auto px-4 py-6 lg:py-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div className="text-center md:text-left mb-6 md:mb-0">
+      <div className="footer-clean bg-black text-white w-full">
+        <footer className="max-w-[1440px] mx-auto py-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="text-center md:text-left">
               <h1 className="text-lg font-bold mb-4">Kurumsal</h1>
               <ul className="space-y-2">
-                <li className="hover:text-gray-300 cursor-pointer">
+                <li className="hover:text-gray-300 transition-colors cursor-pointer">
                   <Link href="/about">Hakkımızda</Link>
                 </li>
               </ul>
             </div>
 
-            <div className="text-center md:text-left mb-6 md:mb-0">
+            <div className="text-center md:text-left">
               <h1 className="text-lg font-bold mb-4">Ürün Gruplarımız</h1>
               <ul className="grid grid-cols-2 gap-2">
-                <li className="hover:text-gray-300 cursor-pointer">
-                  <Link href="/products/masa">Masa</Link>
+                <li className="hover:text-gray-300 transition-colors cursor-pointer">
+                  <Link href="/kategoriler/masalar">Masa</Link>
                 </li>
-                <li className="hover:text-gray-300 cursor-pointer">
-                  <Link href="/products/sandalye">Sandalye</Link>
+                <li className="hover:text-gray-300 transition-colors cursor-pointer">
+                  <Link href="/kategoriler/sandalyeler">Sandalye</Link>
                 </li>
-                <li className="hover:text-gray-300 cursor-pointer">
-                  <Link href="/products/sehpa">Sehpa</Link>
+                <li className="hover:text-gray-300 transition-colors cursor-pointer">
+                  <Link href="/kategoriler/sehpalar">Sehpa</Link>
                 </li>
-                <li className="hover:text-gray-300 cursor-pointer">
-                  <Link href="/products/dresuar">Dresuar</Link>
+                <li className="hover:text-gray-300 transition-colors cursor-pointer">
+                  <Link href="/kategoriler/dresuarlar">Dresuar</Link>
                 </li>
-                <li className="hover:text-gray-300 cursor-pointer">
-                  <Link href="/products/ayna">Ayna</Link>
+                <li className="hover:text-gray-300 transition-colors cursor-pointer">
+                  <Link href="/kategoriler/aynalar">Ayna</Link>
                 </li>
-                <li className="hover:text-gray-300 cursor-pointer">
-                  <Link href="/products/konsol-tv-unitesi">Konsol-Tv Ünitesi</Link>
+                <li className="hover:text-gray-300 transition-colors cursor-pointer">
+                  <Link href="/kategoriler/konsol-tv-unitesi">Konsol-Tv Ünitesi</Link>
                 </li>
-                <li className="hover:text-gray-300 cursor-pointer">
-                  <Link href="/products/berjer">Berjer</Link>
+                <li className="hover:text-gray-300 transition-colors cursor-pointer">
+                  <Link href="/kategoriler/berjerler">Berjer</Link>
                 </li>
-                <li className="hover:text-gray-300 cursor-pointer">
-                  <Link href="/products/bench-puf">Bench-Puf</Link>
+                <li className="hover:text-gray-300 transition-colors cursor-pointer">
+                  <Link href="/kategoriler/bench-puf">Bench-Puf</Link>
                 </li>
-                <li className="hover:text-gray-300 cursor-pointer">
-                  <Link href="/products/separator">Separatör</Link>
+                <li className="hover:text-gray-300 transition-colors cursor-pointer">
+                  <Link href="/kategoriler/separatorler">Separatör</Link>
                 </li>
-                <li className="hover:text-gray-300 cursor-pointer">
-                  <Link href="/products/aydinlatma">Aydınlatma</Link>
+                <li className="hover:text-gray-300 transition-colors cursor-pointer">
+                  <Link href="/kategoriler/aydinlatmalar">Aydınlatma</Link>
                 </li>
-                <li className="hover:text-gray-300 cursor-pointer">
-                  <Link href="/products/kitaplık">Kitaplık</Link>
+                <li className="hover:text-gray-300 transition-colors cursor-pointer">
+                  <Link href="/kategoriler/kitaplıklar">Kitaplık</Link>
                 </li>
-                <li className="hover:text-gray-300 cursor-pointer">
-                  <Link href="/products/aksesuar">Aksesuar</Link>
+                <li className="hover:text-gray-300 transition-colors cursor-pointer">
+                  <Link href="/kategoriler/aksesuarlar">Aksesuar</Link>
                 </li>
-                <li className="hover:text-gray-300 cursor-pointer">
-                  <Link href="/products/koltuk-takimi">Koltuk Takımı</Link>
+                <li className="hover:text-gray-300 transition-colors cursor-pointer">
+                  <Link href="/kategoriler/koltuk-takimi">Koltuk Takımı</Link>
                 </li>
               </ul>
             </div>
 
-            <div className="text-center md:text-left mb-6 md:mb-0">
-              <h1 className="text-lg font-bold mb-4">Sosyal Medya</h1>
-              <div className="flex justify-center md:justify-start space-x-4">
+            <div className="text-center md:text-right md:pr-8">
+              <h1 className="text-lg font-bold mb-4 text-center md:text-right md:pr-2">Sosyal Medya</h1>
+              <div className="flex items-center justify-center md:justify-end space-x-3">
                 <Link href="https://www.facebook.com" className="hover:opacity-75">
-                  <Image src={facebook} alt="Facebook" width={24} height={24} className="filter invert" />
+                  <Image src={facebook} alt="Facebook" width={20} height={20} className="w-5 h-5" />
                 </Link>
                 <Link href="https://www.instagram.com" className="hover:opacity-75">
-                  <Image src={instagram} alt="Instagram" width={24} height={24} className="filter invert" />
+                  <Image src={instagram} alt="Instagram" width={20} height={20} className="w-5 h-5" />
                 </Link>
                 <Link href="https://www.pinterest.com" className="hover:opacity-75">
-                  <Image src={pinterest} alt="Pinterest" width={24} height={24} className="filter invert" />
+                  <Image src={pinterest} alt="Pinterest" width={20} height={20} className="w-5 h-5" />
                 </Link>
                 <Link href="https://www.youtube.com" className="hover:opacity-75">
-                  <Image src={youtube} alt="YouTube" width={24} height={24} className="filter invert" />
+                  <Image src={youtube} alt="YouTube" width={20} height={20} className="w-5 h-5" />
                 </Link>
               </div>
             </div>
