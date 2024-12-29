@@ -1,5 +1,6 @@
-import Mid from "./components/Slider/page";
+import Slider from "@components/Slider";
+
 
 export default function Home() {
-  return <Mid />;
+  return <Slider />;
 }

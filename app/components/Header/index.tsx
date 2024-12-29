@@ -1,18 +1,17 @@
 import Link from "next/link";
 import Image from "next/image";
-import logo from "../../../images/header/logo.png";
-import instagram from "../../../images/header/instagram.svg";
-import facebook from "../../../images/header/facebook.svg";
-import youtube from "../../../images/header/youtube.svg";
-import pinterest from "../../../images/header/pinterest.svg";
-import "./global.css";
+import logo from "@images/header/logo.png";
+import instagram from "@images/header/instagram.svg";
+import facebook from "@images/header/facebook.svg";
+import youtube from "@images/header/youtube.svg";
+import pinterest from "@images/header/pinterest.svg";
+import "./styles.css";
 
 export default function Header() {
     return (
         <header className="bg-black text-white shadow-md">
             <div className="container mx-auto px-4">
                 <div className="flex flex-col md:flex-row items-center justify-between py-2 md:py-4">
-                    {/* Logo */}
                     <div className="mb-2 md:mb-0">
                       <Link href="/">
                         <Image
@@ -25,15 +24,13 @@ export default function Header() {
                       </Link>  
                     </div>
 
-                    {/* Navigation */}
                     <nav className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-6 text-sm md:text-base">
                         <Link href="/" className="text-white hover:text-gray-300">Ana Sayfa</Link>
                         <Link href="/about" className="text-white hover:text-gray-300">Hakkımızda</Link>
-                        <Link href="/products" className="text-white hover:text-gray-300">Ürünlerimiz</Link>
+                        <Link href="/kategoriler" className="text-white hover:text-gray-300">Ürünlerimiz</Link>
                         <Link href="/contact" className="text-white hover:text-gray-300">İletişim</Link>
                     </nav>
 
-                    {/* Sosyal Medya İkonları */}
                     <div className="flex items-center space-x-3 md:space-x-4 mt-2 md:mt-0">
                         <Link href="https://www.facebook.com" className="hover:opacity-75">
                             <Image src={facebook} alt="Facebook" width={20} height={20} className="w-5 md:w-6 h-auto " />

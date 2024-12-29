@@ -1,18 +1,16 @@
 import Link from "next/link";
 import Image from "next/image";
-import facebook from "../../../images/header/facebook.svg";
-import instagram from "../../../images/header/instagram.svg";
-import pinterest from "../../../images/header/pinterest.svg";
-import youtube from "../../../images/header/youtube.svg";
-import "./global.css";
+import facebook from "@images/header/facebook.svg";
+import instagram from "@images/header/instagram.svg";
+import pinterest from "@images/header/pinterest.svg";
+import youtube from "@images/header/youtube.svg";
+import "./styles.css";
 
 export default function Footer() {
     return (
       <div className="footer-clean bg-gray-900 text-white">
         <footer className="container mx-auto px-4 py-6 lg:py-8">
-          {/* Grid yapısını düzenleyelim */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {/* Kurumsal Bölümü */}
             <div className="text-center md:text-left mb-6 md:mb-0">
               <h1 className="text-lg font-bold mb-4">Kurumsal</h1>
               <ul className="space-y-2">
@@ -22,7 +20,6 @@ export default function Footer() {
               </ul>
             </div>
 
-            {/* Ürün Gruplarımız */}
             <div className="text-center md:text-left mb-6 md:mb-0">
               <h1 className="text-lg font-bold mb-4">Ürün Gruplarımız</h1>
               <ul className="grid grid-cols-2 gap-2">
@@ -68,7 +65,6 @@ export default function Footer() {
               </ul>
             </div>
 
-            {/* Sosyal Medya İkonları */}
             <div className="text-center md:text-left mb-6 md:mb-0">
               <h1 className="text-lg font-bold mb-4">Sosyal Medya</h1>
               <div className="flex justify-center md:justify-start space-x-4">
