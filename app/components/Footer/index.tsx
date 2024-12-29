@@ -31,36 +31,18 @@ export default function Footer() {
                 </li>
                 <li className="hover:text-gray-300 transition-colors cursor-pointer">
                   <Link href="/kategoriler/sehpalar">Sehpa</Link>
-                </li>
-                <li className="hover:text-gray-300 transition-colors cursor-pointer">
-                  <Link href="/kategoriler/dresuarlar">Dresuar</Link>
-                </li>
+                </li>             
                 <li className="hover:text-gray-300 transition-colors cursor-pointer">
                   <Link href="/kategoriler/aynalar">Ayna</Link>
-                </li>
-                <li className="hover:text-gray-300 transition-colors cursor-pointer">
-                  <Link href="/kategoriler/konsol-tv-unitesi">Konsol-Tv Ünitesi</Link>
                 </li>
                 <li className="hover:text-gray-300 transition-colors cursor-pointer">
                   <Link href="/kategoriler/berjerler">Berjer</Link>
                 </li>
                 <li className="hover:text-gray-300 transition-colors cursor-pointer">
-                  <Link href="/kategoriler/bench-puf">Bench-Puf</Link>
-                </li>
-                <li className="hover:text-gray-300 transition-colors cursor-pointer">
                   <Link href="/kategoriler/separatorler">Separatör</Link>
                 </li>
                 <li className="hover:text-gray-300 transition-colors cursor-pointer">
-                  <Link href="/kategoriler/aydinlatmalar">Aydınlatma</Link>
-                </li>
-                <li className="hover:text-gray-300 transition-colors cursor-pointer">
                   <Link href="/kategoriler/kitaplıklar">Kitaplık</Link>
-                </li>
-                <li className="hover:text-gray-300 transition-colors cursor-pointer">
-                  <Link href="/kategoriler/aksesuarlar">Aksesuar</Link>
-                </li>
-                <li className="hover:text-gray-300 transition-colors cursor-pointer">
-                  <Link href="/kategoriler/koltuk-takimi">Koltuk Takımı</Link>
                 </li>
               </ul>
             </div>

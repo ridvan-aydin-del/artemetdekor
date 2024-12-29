@@ -26,9 +26,9 @@ export default function Header() {
 
                     <nav className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-6 text-sm md:text-base">
                         <Link href="/" className="text-white hover:text-gray-300">Ana Sayfa</Link>
-                        <Link href="/about" className="text-white hover:text-gray-300">Hakkımızda</Link>
+                        <Link href="/hakkimizda" className="text-white hover:text-gray-300">Hakkımızda</Link>
                         <Link href="/kategoriler" className="text-white hover:text-gray-300">Ürünlerimiz</Link>
-                        <Link href="/contact" className="text-white hover:text-gray-300">İletişim</Link>
+                        <Link href="/iletisim" className="text-white hover:text-gray-300">İletişim</Link>
                     </nav>
 
                     <div className="flex items-center space-x-3 md:space-x-4 mt-2 md:mt-0">
