@@ -26,16 +26,16 @@ export const masaImages = [
   Masa12,
 ];
 
-import Sehpa1 from "@images/sehpa/Sehpa-1.jpg";
-import Sehpa2 from "@images/sehpa/Sehpa-2.jpg";
-import Sehpa3 from "@images/sehpa/Sehpa-3.jpg";
-import Sehpa4 from "@images/sehpa/Sehpa-4.jpg";
-import Sehpa5 from "@images/sehpa/Sehpa-5.jpg";
-import Sehpa6 from "@images/sehpa/Sehpa-6.jpg";
-import Sehpa7 from "@images/sehpa/Sehpa-7.jpg";
-import Sehpa8 from "@images/sehpa/Sehpa-8.jpg";
-import Sehpa9 from "@images/sehpa/Sehpa-9.jpg";
-import Sehpa10 from "@images/sehpa/Sehpa-10.jpg";
+import Sehpa1 from "@images/sehpa/sehpa-1.jpg";
+import Sehpa2 from "@images/sehpa/sehpa-2.jpg";
+import Sehpa3 from "@images/sehpa/sehpa-3.jpg";
+import Sehpa4 from "@images/sehpa/sehpa-4.jpg";
+import Sehpa5 from "@images/sehpa/sehpa-5.jpg";
+import Sehpa6 from "@images/sehpa/sehpa-6.jpg";
+import Sehpa7 from "@images/sehpa/sehpa-7.jpg";
+import Sehpa8 from "@images/sehpa/sehpa-8.jpg";
+import Sehpa9 from "@images/sehpa/sehpa-9.jpg";
+import Sehpa10 from "@images/sehpa/sehpa-10.jpg";
 
 export const sehpaImages = [
   Sehpa1,
@@ -50,16 +50,16 @@ export const sehpaImages = [
   Sehpa10,
 ];
 
-import Ayna1 from "@images/ayna/Ayna-1.jpg";
-import Ayna2 from "@images/ayna/Ayna-2.jpg";
-import Ayna3 from "@images/ayna/Ayna-3.jpg";
-import Ayna4 from "@images/ayna/Ayna-4.jpg";
-import Ayna5 from "@images/ayna/Ayna-5.jpg";
-import Ayna6 from "@images/ayna/Ayna-6.jpg";
-import Ayna7 from "@images/ayna/Ayna-7.jpg";
-import Ayna8 from "@images/ayna/Ayna-8.jpg";
-import Ayna9 from "@images/ayna/Ayna-9.jpg";
-import Ayna10 from "@images/ayna/Ayna-10.jpg";
+import Ayna1 from "@images/ayna/ayna-1.jpg";
+import Ayna2 from "@images/ayna/ayna-2.jpg";
+import Ayna3 from "@images/ayna/ayna-3.jpg";
+import Ayna4 from "@images/ayna/ayna-4.jpg";
+import Ayna5 from "@images/ayna/ayna-5.jpg";
+import Ayna6 from "@images/ayna/ayna-6.jpg";
+import Ayna7 from "@images/ayna/ayna-7.jpg";
+import Ayna8 from "@images/ayna/ayna-8.jpg";
+import Ayna9 from "@images/ayna/ayna-9.jpg";
+import Ayna10 from "@images/ayna/ayna-10.jpg";
 
 export const aynaImages = [
   Ayna1,
@@ -74,16 +74,16 @@ export const aynaImages = [
   Ayna10,
 ];
 
-import Berjer1 from "@images/berjer/Berjer-1.jpg";
-import Berjer2 from "@images/berjer/Berjer-2.jpg";
-import Berjer3 from "@images/berjer/Berjer-3.jpg";
-import Berjer4 from "@images/berjer/Berjer-4.jpg";
-import Berjer5 from "@images/berjer/Berjer-5.jpg";
-import Berjer6 from "@images/berjer/Berjer-6.jpg";
-import Berjer7 from "@images/berjer/Berjer-7.jpg";
-import Berjer8 from "@images/berjer/Berjer-8.jpg";
-import Berjer9 from "@images/berjer/Berjer-9.jpg";
-import Berjer10 from "@images/berjer/Berjer-10.jpg";
+import Berjer1 from "@images/berjer/berjer-1.jpg";
+import Berjer2 from "@images/berjer/berjer-2.jpg";
+import Berjer3 from "@images/berjer/berjer-3.jpg";
+import Berjer4 from "@images/berjer/berjer-4.jpg";
+import Berjer5 from "@images/berjer/berjer-5.jpg";
+import Berjer6 from "@images/berjer/berjer-6.jpg";
+import Berjer7 from "@images/berjer/berjer-7.jpg";
+import Berjer8 from "@images/berjer/berjer-8.jpg";
+import Berjer9 from "@images/berjer/berjer-9.jpg";
+import Berjer10 from "@images/berjer/berjer-10.jpg";
 
 export const berjerImages = [
   Berjer1,
@@ -98,12 +98,12 @@ export const berjerImages = [
   Berjer10,
 ];
 
-import Seperator1 from "@images/seperator/Seperator-1.jpg";
-import Seperator2 from "@images/seperator/Seperator-2.jpg";
-import Seperator3 from "@images/seperator/Seperator-3.jpg";
-import Seperator4 from "@images/seperator/Seperator-4.jpg";
-import Seperator5 from "@images/seperator/Seperator-5.jpg";
-import Seperator6 from "@images/seperator/Seperator-6.jpg";
+import Seperator1 from "@images/seperator/seperator-1.jpg";
+import Seperator2 from "@images/seperator/seperator-2.jpg";
+import Seperator3 from "@images/seperator/seperator-3.jpg";
+import Seperator4 from "@images/seperator/seperator-4.jpg";
+import Seperator5 from "@images/seperator/seperator-5.jpg";
+import Seperator6 from "@images/seperator/seperator-6.jpg";
 
 export const seperatorImages = [
   Seperator1,
@@ -114,16 +114,16 @@ export const seperatorImages = [
   Seperator6,
 ];
 
-import Kitaplik1 from "@images/kitaplik/Kitaplik-1.jpg";
-import Kitaplik2 from "@images/kitaplik/Kitaplik-2.jpg";
-import Kitaplik3 from "@images/kitaplik/Kitaplik-3.jpg";
-import Kitaplik4 from "@images/kitaplik/Kitaplik-4.jpg";
-import Kitaplik5 from "@images/kitaplik/Kitaplik-5.jpg";
-import Kitaplik6 from "@images/kitaplik/Kitaplik-6.jpg";
-import Kitaplik7 from "@images/kitaplik/Kitaplik-7.jpg";
-import Kitaplik8 from "@images/kitaplik/Kitaplik-8.jpg";
-import Kitaplik9 from "@images/kitaplik/Kitaplik-9.jpg";
-import Kitaplik10 from "@images/kitaplik/Kitaplik-10.jpg";
+import Kitaplik1 from "@images/kitaplik/kitaplik-1.jpg";
+import Kitaplik2 from "@images/kitaplik/kitaplik-2.jpg";
+import Kitaplik3 from "@images/kitaplik/kitaplik-3.jpg";
+import Kitaplik4 from "@images/kitaplik/kitaplik-4.jpg";
+import Kitaplik5 from "@images/kitaplik/kitaplik-5.jpg";
+import Kitaplik6 from "@images/kitaplik/kitaplik-6.jpg";
+import Kitaplik7 from "@images/kitaplik/kitaplik-7.jpg";
+import Kitaplik8 from "@images/kitaplik/kitaplik-8.jpg";
+import Kitaplik9 from "@images/kitaplik/kitaplik-9.jpg";
+import Kitaplik10 from "@images/kitaplik/kitaplik-10.jpg";
 
 export const kitaplikImages = [
   Kitaplik1,
@@ -138,17 +138,17 @@ export const kitaplikImages = [
   Kitaplik10,
 ];
 
-import Sandalye1 from "@images/sandalye/Sandalye-1.jpg";
-import Sandalye2 from "@images/sandalye/Sandalye-2.jpg";
-import Sandalye3 from "@images/sandalye/Sandalye-3.jpg";
-import Sandalye4 from "@images/sandalye/Sandalye-4.jpg";
-import Sandalye5 from "@images/sandalye/Sandalye-5.jpg";
-import Sandalye6 from "@images/sandalye/Sandalye-6.jpg";
-import Sandalye7 from "@images/sandalye/Sandalye-7.jpg";
-import Sandalye8 from "@images/sandalye/Sandalye-8.jpg";
-import Sandalye9 from "@images/sandalye/Sandalye-9.jpg";
-import Sandalye10 from "@images/sandalye/Sandalye-10.jpg";
-import Sandalye11 from "@images/sandalye/Sandalye-11.jpg";
+import Sandalye1 from "@images/sandalye/sandalye-1.jpg";
+import Sandalye2 from "@images/sandalye/sandalye-2.jpg";
+import Sandalye3 from "@images/sandalye/sandalye-3.jpg";
+import Sandalye4 from "@images/sandalye/sandalye-4.jpg";
+import Sandalye5 from "@images/sandalye/sandalye-5.jpg";
+import Sandalye6 from "@images/sandalye/sandalye-6.jpg";
+import Sandalye7 from "@images/sandalye/sandalye-7.jpg";
+import Sandalye8 from "@images/sandalye/sandalye-8.jpg";
+import Sandalye9 from "@images/sandalye/sandalye-9.jpg";
+import Sandalye10 from "@images/sandalye/sandalye-10.jpg";
+import Sandalye11 from "@images/sandalye/sandalye-11.jpg";
 
 export const sandalyeImages = [
   Sandalye1,
