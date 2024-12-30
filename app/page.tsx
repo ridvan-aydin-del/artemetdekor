@@ -1,5 +1,14 @@
-import Mid from "./components/Slider/page";
+import Features from "@components/Features";
+import Kategoriler from "@components/Kategoriler";
+import Slider from "@components/Slider";
+
 
 export default function Home() {
-  return <Mid />;
+  return (
+    <>
+      <Slider />
+      <Kategoriler /> 
+      <Features />
+    </>
+  );
 }
